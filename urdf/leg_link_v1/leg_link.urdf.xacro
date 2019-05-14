@@ -57,7 +57,7 @@
       <child
         link="${side}_hip_link" />
       <axis
-        xyz="1 0 0" />
+        xyz="${1 * s_sign} 0 0" />
     </joint>
 
     <link
